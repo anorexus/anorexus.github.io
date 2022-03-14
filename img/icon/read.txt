@@ -1,0 +1,11 @@
+If you were to create a favicon for every possible use, the sizes you would need to create are:
+
+16px: For general use in all browsers, could be displayed in the address bar, tabs or bookmarks views!
+24px: Pinned Site in Internet Explorer 9
+32px: New tab page in Internet Explorer, taskbar button in Windows 7+ and Safari’s ‘Read Later’ sidebar
+57px: Standard iOS home screen (iPod Touch, iPhone first generation to 3G)
+72px: iPad home screen icon
+96px: Favicon used by the GoogleTV platform
+114px: iPhone 4+ home screen icon (twice the standard size for the retina display)
+128px: Chrome Web Store
+195px: Opera Speed Dial
