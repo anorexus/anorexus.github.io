@@ -8,6 +8,15 @@
 		font-family: Yasashisha;
 		src:url(../font/YASASHISAGOTHICBOLD-V2.OTF);
 }
+#responsive {
+	display: none;
+}
+.divider {
+	background: #F2F4F6;
+	height: 2px;
+	width: auto;
+	margin: 0 48px 72px;;
+}
 body {
 	font-family: 'Manrope', 'Yasashisha', sans-serif;
 	background: #FFFFFF;
@@ -275,6 +284,7 @@ footer {
 	background-color: #F2F4F6;
 }
 footer .wrapper{
+	width: auto;
 	max-width: 640px;
 	padding: 128px;
 	display: block;
@@ -315,13 +325,13 @@ footer .wrapper{
 		font-weight: 300;
 }
 #social {
-	margin: 32px auto 0;
-	display: block;
+	display: inline-flex;
+}
+#social a {
+	display: contents;
+	text-align: center;
 }
 #social img {
 	display: flex;
-	margin: auto;
-	padding: 0px 8px;
-	height: 100%;
-	width: 100px;
+	padding: 0px 16px;
 }
