@@ -42,8 +42,25 @@ body {
 	margin: 0 auto;
 	color: #495057;
 }
+#hero_image {
+	padding: 0 48px;
+}
+#hero_image img {
+	display:block;
+	max-height: 318px;
+	width: 100%
+}
 #content {
-	margin-top: 180px;
+	margin: 180px auto 0px;
+	width: 100%;
+	max-width: 640px;
+}
+#logo {
+	padding: 0 48px;
+}
+#logo img {
+	max-height: 56px;
+	width: 100%;
 }
 #content h2 {
 	font-family: Yasashisha;
