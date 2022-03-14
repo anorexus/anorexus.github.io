@@ -9,6 +9,9 @@
     font-size: 14pt;
     padding: 12px 40px;
   }
+  #hero_image {
+    padding: 0 72px;
+  }
   #intro_content h1 {
   	font-size: 24pt;
   }

@@ -63,7 +63,7 @@ body {
 	font-family: Yasashisha;
 	color: #868E96;
 	font-size: 24px;
-	padding-top: 24px;
+	padding-top: 8px;
 }
 #cta_button {
 	background: #fff;
@@ -199,10 +199,11 @@ h4 {
 	text-align: left;
 	color: #868E96;
 	font-size: 14pt;
-	letter-spacing: 12px;
+	letter-spacing: 8px;
 	font-weight: 800;
 	margin-top: 4px;
 	margin-bottom: 12px;
+	line-height: 2;
 }
 h6 {
 	text-align: left;
@@ -232,7 +233,8 @@ li {
 #conclusion_content h1 {
 	font-family: Yasashisha;
 	font-size: 32pt;
-	color: #495057
+	color: #495057;
+	margin-bottom: 16px;
 }
 #conclusion_content p {
 	color: #868E96;
