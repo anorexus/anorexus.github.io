@@ -12,7 +12,7 @@ body {
 	font-family: 'Manrope', 'Yasashisha', sans-serif;
 	background: #FFFFFF;
 	font-size: 24px;
-	color: #000
+	color: #495057
 	-webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -27,11 +27,11 @@ body {
 	display: flex;
 	align-items: center;
 	overflow: hidden;
-position: fixed;
-background: #fff;
-margin: 0 auto;
-top: 0;
-vertical-align: middle;
+	position: fixed;
+	background: #fff;
+	margin: 0 auto;
+	top: 0;
+	vertical-align: middle;
 }
 #nav img {
 	margin: auto;
@@ -40,26 +40,27 @@ vertical-align: middle;
 	width: 100%;
 	height: 720px;
 	margin: 0 auto;
-	color: #000;
+	color: #495057;
 }
 #content {
 	margin-top: 180px;
 }
-#hero h2 {
+#content h2 {
 	font-family: Yasashisha;
-	color: #000;
+	color: #868E96;
 	font-size: 24px;
 	padding-top: 24px;
 }
 #cta_button {
 	background: #fff;
-	border: solid 1px #ddd;
+	border: solid 1px #2AAFA1;
 	border-radius: 32px;
 	padding: 16px 48px;
 	display: inline-block;
 	margin-top: 48px;
 	font-size: 18pt;
 	font-weight: 800;
+	color: #2AAFA1;
 }
 #cta_button:hover {
 	background: rgb(107,153,144);
@@ -70,7 +71,7 @@ vertical-align: middle;
 	cursor: pointer;
 }
 #cta_button a {
-	color: #000;
+	color: #2AAFA1;
 	margin: auto;
 	text-decoration: none;
 }
@@ -101,10 +102,10 @@ vertical-align: middle;
 #intro_content h1 {
 	font-family: Yasashisha;
 	font-size: 32pt;
-	color: #000
+	color: #495057
 }
 #intro_content p {
-	color: #979797;
+	color: #868E96;
 	font-size: 14pt;
 	letter-spacing: 12px;
 	font-weight: 800;
@@ -112,15 +113,15 @@ vertical-align: middle;
 	margin-bottom: 12px;
 }
 #intro_content span {
-	color: #979797;
+	color: #CED4DA;
 	font-size: 24pt;
 	font-weight: 800;
 }
 
 #intro_content h5 {
 	width: auto;
-	margin-top: 32px;
-	color: #000;
+	margin-top: 24px;
+	color: #495057;
 	font-size: 18pt;
 	font-weight: 300;
 }
@@ -202,7 +203,7 @@ h4 {
 h6 {
 	text-align: left;
 	width: auto;
-	margin-top: 32px;
+	margin-top: 12px;
 	color: #000;
 	font-size: 16pt;
 	font-weight: 300;
@@ -227,10 +228,10 @@ li {
 #conclusion_content h1 {
 	font-family: Yasashisha;
 	font-size: 32pt;
-	color: #000
+	color: #495057
 }
 #conclusion_content p {
-	color: #979797;
+	color: #868E96;
 	font-size: 14pt;
 	letter-spacing: 12px;
 	font-weight: 800;
@@ -238,15 +239,15 @@ li {
 	margin-bottom: 12px;
 }
 #conclusion_content span {
-	color: #979797;
+	color: #CED4DA;
 	font-size: 24pt;
 	font-weight: 800;
 }
 
 #conclusion_content h5 {
 	width: auto;
-	margin-top: 32px;
-	color: #000;
+	margin-top: 24px;
+	color: #495057;
 	font-size: 18pt;
 	font-weight: 300;
 }
@@ -292,27 +293,36 @@ footer .wrapper{
 #id h3 {
 			text-align: center;
 			font-family: Manrope;
+			color: #495057;
 }
 #id p {
-			text-align: center;
-			font-family: Yasashisha;
-			background: -webkit-linear-gradient(90deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
-		  -webkit-background-clip: text;
-		  -webkit-text-fill-color: transparent;
-			font-size: 18pt;
-			font-weight: 800;
+		text-align: center;
+		font-family: Yasashisha;
+		background: -webkit-linear-gradient(90deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+		font-size: 18pt;
+		font-weight: 800;
+		margin-bottom: 12px;
 }
 #id span {
-			text-align: center;
-			font-family: Manrope;
-			color: #979797;
-			font-size: 24pt;
-			font-weight: 800;
+		text-align: center;
+		font-family: Manrope;
+		color: #CED4DA;
+		font-size: 24pt;
+		font-weight: 800;
 }
 #id h5 {
-	width: auto;
-	margin-top: 32px;
-	color: #000;
-	font-size: 18pt;
-	font-weight: 300;
+		width: auto;
+		margin: 24px 0 64px;
+		color: #495057;
+		font-size: 18pt;
+		font-weight: 300;
+}
+#social {
+	margin: 32px auto 0;
+	display: block;
+}
+#social img {
+	padding: 0px 8px;
 }
