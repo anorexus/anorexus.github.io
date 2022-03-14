@@ -10,7 +10,7 @@
     padding: 12px 40px;
   }
   #intro_content h1 {
-  	font-size: 28pt;
+  	font-size: 24pt;
   }
   #intro_content p {
   	font-size: 12pt;
@@ -39,7 +39,7 @@
   }
   h3 {
   	text-align: center;
-    font-size: 28pt;
+    font-size: 24pt;
   }
   h4 {
   	text-align: center;
@@ -74,9 +74,19 @@
   #conclusion_content span {
   	font-size: 20pt;
   }
-
   #conclusion_content h5 {
   	font-size: 14pt;
   }
-
+  #id h3 {
+      font-size: 24pt;
+  }
+  #id p {
+  		font-size: 12pt;
+  }
+  #id span {
+  		font-size: 20pt;
+  }
+  #id h5 {
+  		font-size: 14pt;
+  }
 }

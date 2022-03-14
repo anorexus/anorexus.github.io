@@ -286,7 +286,7 @@ footer {
 footer .wrapper{
 	width: auto;
 	max-width: 640px;
-	padding: 128px;
+	padding: 128px 48px;
 	display: block;
 	margin: auto;
 }
