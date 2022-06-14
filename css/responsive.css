@@ -93,4 +93,10 @@
   #id h5 {
   		font-size: 14pt;
   }
+  #content h1 {
+    font-size: 64px
+  }
+  #hero {
+    height: 50vh;
+  }
 }

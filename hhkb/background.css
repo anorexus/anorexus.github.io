@@ -1,3 +1,11 @@
 #hero {
   background: url("../hhkb/hero.png") no-repeat center center;
+  	background-size: contain;
+}
+@media screen and (max-width: 640px)
+{
+  #hero {
+      background: url("../hhkb/img/herom.png") no-repeat center center;
+      background-size: contain;
+  }
 }
