@@ -32,7 +32,6 @@ body {
 #nav {
 	width: 100%;
 	height: 72px;
-	margin: auto;
 	display: flex;
 	align-items: center;
 	overflow: hidden;
@@ -41,15 +40,25 @@ body {
 	margin: 0 auto;
 	top: 0;
 	vertical-align: middle;
+	z-index: 1;
 }
 #nav img {
 	margin: auto;
 }
+#hero{
+	width: 100%;
+	height: 75vh;
+	min-height: 480px;
+	max-height: 800px;
+	margin: 72px auto 0;
+}
 #content {
-	margin: 180px auto 0px;
+	margin: 0 auto;
 	width: 100%;
 	max-width: 640px;
 	min-width: 360px;
+	position: relative;
+	top: 25%;
 }
 #logo {
 	padding: 0 48px;
@@ -66,17 +75,12 @@ body {
 	padding-top: 8px;
 }
 #cta_button {
-	background: #fff;
-	border: solid 1px #2AAFA1;
 	border-radius: 32px;
 	padding: 16px 48px;
 	display: inline-block;
-	margin-top: 48px;
+	margin-top: 24px;
 	font-size: 18pt;
 	font-weight: 800;
-	color: #2AAFA1;
-}
-#cta_button:hover {
 	background: rgb(107,153,144);
   background: linear-gradient(90deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
 	border: solid 1px rgba(0,0,0,0);
@@ -114,6 +118,15 @@ body {
 	margin: auto;
 	max-width: 640px;
 	padding: 0 48px;
+}
+#content h1 {
+	font-size: 128px;
+	text-align: center;
+	background: -webkit-linear-gradient(90deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+	margin-bottom: 12px;
 }
 #intro_content h1 {
 	font-family: Yasashisha;
