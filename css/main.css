@@ -42,7 +42,7 @@ body {
 	vertical-align: middle;
 	z-index: 1;
 }
-#nav img {
+#nav a {
 	margin: auto;
 }
 #hero{
