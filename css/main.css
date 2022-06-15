@@ -119,10 +119,18 @@ body {
 	max-width: 640px;
 	padding: 0 48px;
 }
+#intro_content a {
+	text-decoration: none;
+	font-weight: 600;
+	background: -webkit-linear-gradient(0deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
 #content h1 {
 	font-size: 128px;
 	text-align: center;
-	background: -webkit-linear-gradient(90deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 800;
@@ -317,7 +325,7 @@ footer .wrapper{
 #id p {
 		text-align: center;
 		font-family: Yasashisha;
-		background: -webkit-linear-gradient(90deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
+		background: -webkit-linear-gradient(0deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
 	  -webkit-background-clip: text;
 	  -webkit-text-fill-color: transparent;
 		font-size: 18pt;
