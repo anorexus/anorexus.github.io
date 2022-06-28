@@ -1,0 +1,11 @@
+#hero {
+  background: url("../deskmat_group_buy/hero.png") no-repeat center center;
+  background-size: contain;
+}
+@media screen and (max-width: 640px)
+{
+  #hero {
+      background: url("../deskmat_group_buy/img/herom.png") no-repeat center center;
+      background-size: contain;
+  }
+}

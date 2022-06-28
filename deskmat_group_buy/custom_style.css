@@ -1,0 +1,62 @@
+body {
+	background: #313953;
+	font-size: 24px;
+	color: #FFFFFF
+}
+#nav {
+  background: #313953;
+}
+#intro {
+  background: #404969;
+}
+#intro_content h1 {
+  color: #D1D7EB
+}
+#intro_content p {
+  color: #7A83A3
+}
+#intro_content span {
+  color: #CED4DA
+}
+#intro_content h5 {
+  color: #b4bcd5
+}
+.wrapper .text{
+  background: #313953;
+}
+h3 {
+  color: #D1D7EB
+}
+h4{
+  color: #7A83A3
+}
+h6 {
+  color: #b4bcd5
+}
+#conclusion_content h1 {
+  color: #D1D7EB
+}
+#conclusion_content p {
+  color: #7A83A3
+}
+#conclusion_content span {
+  color: #CED4DA
+}
+#conclusion_content h5 {
+  color: #b4bcd5
+}
+footer {
+  background-color: #404969
+}
+#id h3 {
+  color: #D1D7EB
+}
+#id span {
+  color: #CED4DA
+}
+#id h5 {
+  color: #b4bcd5
+}
+.divider {
+  background-color: #4f5770
+}
