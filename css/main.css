@@ -129,6 +129,9 @@ body {
 	font-size: 18pt;
 	font-weight: 800;
 	background: rgba(64, 73, 105, 0.7);
+	cursor: pointer;
+	transition: 0.2s;
+	transition-timing-function: ease-in-out;
 }
 #cta_old:hover {
 	background: rgba(123, 130, 176, 1);
