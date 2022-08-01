@@ -5,8 +5,11 @@
   #responsive {
     display: block;
   }
+  #content-inside {
+    padding: 96px 24px;
+  }
   #content h2 {
-    font-size: 20pt;
+    font-size: 16pt;
   }
   #cta_button {
     font-size: 14pt;
@@ -17,6 +20,10 @@
   }
   .section p {
     font-size: 48px;
+  }
+  .spacer {
+  	height: 16px;
+  	width: 100%;
   }
   #id h3 {
       font-size: 24pt;
@@ -33,13 +40,10 @@
   #content h1 {
     font-size: 64px
   }
-  #hero {
-    height: 50vh;
-  }
-}
 .section:hover {
 	transform: translate(0,0);
 	box-shadow: 1px 4px 64px 0px rgba(0,0,0,0.0);
 	-webkit-box-shadow: 1px 4px 64px 0px rgba(0,0,0,0.0);
 	-moz-box-shadow: 1px 4px 64px 0px rgba(0,0,0,0.0);
+}
 }
