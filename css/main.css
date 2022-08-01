@@ -137,9 +137,9 @@ body {
 	background: rgba(123, 130, 176, 1);
 	text-decoration: none;
 	transform: translate(0,-2px);
-	box-shadow: 1px 4px 24px 0px rgba(177,143,173,0.4);
-	-webkit-box-shadow: 1px 4px 24px 0px rgba(177,143,173,0.4);
-	-moz-box-shadow: 1px 4px 24px 0px rgba(177,143,173,0.4);
+	box-shadow: 1px 4px 24px 0px rgba(123, 130, 176, 0.4);
+	-webkit-box-shadow: 1px 4px 24px 0px rgba(123, 130, 176, 0.4);
+	-moz-box-shadow: 1px 4px 24px 0px rgba(123, 130, 176, 0.4);
 	transition: 0.2s;
 	transition-timing-function: ease-in-out;
 }
