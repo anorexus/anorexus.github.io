@@ -1,0 +1,39 @@
+@media screen and (max-width: 1028px) {
+  #no-responsive {
+    display: none;
+  }
+  #responsive {
+    display: block;
+  }
+  #content h2 {
+    font-size: 28px;
+  }
+  #cta_button {
+    font-size: 14pt;
+    padding: 12px 40px;
+  }
+  #section-1 {
+    display: block;
+  }
+  .section p {
+    font-size: 48px;
+  }
+  #id h3 {
+      font-size: 24pt;
+  }
+  #id p {
+  		font-size: 12pt;
+  }
+  #id span {
+  		font-size: 20pt;
+  }
+  #id h5 {
+  		font-size: 14pt;
+  }
+  #content h1 {
+    font-size: 64px
+  }
+  #hero {
+    height: 50vh;
+  }
+}
