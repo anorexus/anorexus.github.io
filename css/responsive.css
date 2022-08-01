@@ -28,15 +28,15 @@
   }
   #cta_button {
     font-size: 12pt;
-    padding: 12px 40px;
+    padding: 12px 24px;
   }
   #cta_old {
-    font-size: 14pt;
-    padding: 12px 40px;
+    font-size: 12pt;
+    padding: 12px 24px;
   }
   #cta_status {
-    font-size: 14pt;
-    padding: 12px 40px;
+    font-size: 12pt;
+    padding: 12px 16px;
   }
   #hero_image {
     padding: 0 72px;
@@ -130,8 +130,11 @@
   }
 }
 #cta_old h7 {
-  font-size: 14pt;
+  font-size: 12pt;
+}
+#cta_status h7 {
+  font-size: 12pt;
 }
 h8 {
-  font-size: 14pt;
+  font-size: 12pt;
 }
