@@ -97,6 +97,22 @@ body {
 	color: #fff;
 	text-decoration: none;
 }
+#cta_status {
+	border-radius: 32px;
+	padding: 16px 48px;
+	display: inline-block;
+	margin-top: 24px;
+	font-size: 18pt;
+	font-weight: 800;
+	background: rgba(0, 0, 0, 0.4);
+}
+#cta_status h7 {
+	background: -webkit-linear-gradient(0deg, rgba(107,153,144,1) 0%, rgba(107,126,177,1) 35%, rgba(186,145,173,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-size: 18pt;
+	font-weight: 800;
+}
 #hero_image {
 	width: auto;
 	margin-top: 16px;
