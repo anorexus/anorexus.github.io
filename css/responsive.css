@@ -5,6 +5,17 @@
   #responsive {
     display: block;
   }
+  #nav ul {
+  	display: inline-flex;
+  	padding: 0
+  }
+  #nav li {
+  	display: inline;
+  	padding: 16px;
+  	text-align: center;
+  	font-size: 16pt;
+  	font-weight: bold;
+  }
   #cta_button {
     font-size: 14pt;
     padding: 12px 40px;
