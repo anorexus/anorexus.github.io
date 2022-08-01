@@ -5,6 +5,16 @@
   #responsive {
     display: block;
   }
+  #nav_container {
+    display: block;
+    padding: 0
+  }
+  #left_nav {
+    display: hidden;
+  }
+  #right_nav {
+    justify-content: center;
+  }
   #nav ul {
   	display: inline-flex;
   	padding: 0
@@ -13,10 +23,18 @@
   	display: inline;
   	padding: 16px;
   	text-align: center;
-  	font-size: 16pt;
+  	font-size: 12pt;
   	font-weight: bold;
   }
   #cta_button {
+    font-size: 12pt;
+    padding: 12px 40px;
+  }
+  #cta_old {
+    font-size: 14pt;
+    padding: 12px 40px;
+  }
+  #cta_status {
     font-size: 14pt;
     padding: 12px 40px;
   }
@@ -110,4 +128,10 @@
   #hero {
     height: 50vh;
   }
+}
+#cta_old h7 {
+  font-size: 14pt;
+}
+h8 {
+  font-size: 14pt;
 }
