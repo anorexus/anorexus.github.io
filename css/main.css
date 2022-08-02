@@ -6,7 +6,7 @@
 }
 @font-face {
 		font-family: Yasashisha;
-		src:url(../font/YASASHISAGOTHICBOLD-V2.OTF);
+		src:url(/font/YASASHISAGOTHICBOLD-V2.OTF);
 }
 #responsive {
 	display: none;
