@@ -6,11 +6,12 @@
     display: block;
   }
   #nav_container {
-    display: block;
-    padding: 0
-  }
-  #left_nav {
-    display: hidden;
+    display: grid;
+    padding: 0;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    padding: 16px 0;
   }
   #right_nav {
     justify-content: center;
@@ -21,9 +22,8 @@
   }
   #nav li {
   	display: inline;
-  	padding: 16px;
+  	padding: 16px 16px 0 16px;
   	text-align: center;
-  	font-size: 12pt;
   	font-weight: bold;
   }
   #cta_button {
