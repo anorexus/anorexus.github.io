@@ -144,13 +144,19 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#WKL {
-	background: url("/wkl/hero.png") no-repeat center center;
-	background-size: contain;
-}#artisan_tray {
+#artisan_tray {
 	background: url("/artisan_tray/hero.png") no-repeat center center;
 	background-size: contain;
 }
+#coaster {
+	background: url("/coaster/hero.png") no-repeat center center;
+	background-size: contain;
+}
+#WKL {
+	background: url("/wkl/hero.png") no-repeat center center;
+	background-size: contain;
+}
+
 #FRLTKL {
 	background: url("/frltkl/hero.png") no-repeat center center;
 	background-size: contain;
